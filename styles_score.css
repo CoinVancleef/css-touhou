@@ -1,0 +1,28 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+.cool-text {
+  text-shadow: 1px 2px 3px rgba(99, 3, 128, 0.744);
+  margin-bottom: 0.7em;
+}
+.container {
+  margin: auto;
+  max-width: 1600px;
+}
+.table-format {
+  padding: 10px;
+  border-style: double;
+  border-color: purple;
+  border-width: 7px;
+  border-radius: 20px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline solid;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite games</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_games.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="Cherry_Item.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Cherry_Item.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Cherry_Item.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .navbar-color {
+        background-color: cornflowerblue;
+      }
+      .center {
+        text-align: center;
+      }
+      .card {
+        text-align: center;
+        border-radius: 1em;
+      }
+      .card:hover {
+        background-color: rgba(220, 220, 220, 0.982);
+      }
+      .card img {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-color">
+      <div class="container-fluid">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="PCB.png" alt="logo" width="70"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link center" aria-current="page" href="/"
+                ><strong>Home</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active center" href="games.html"
+                ><strong>Favorite games</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active center" href="myscores.html"
+                ><strong>My touhou records</strong></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-3 mx-3">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="column">
+          <div class="card">
+            <img src="Th07cover.jpg" class="card-img-top" alt="PCB" />
+            <div class="card-body">
+              <h5 class="card-title">Touhou 7: Perfect Cherry Blossom</h5>
+              <p class="card-text">
+                Touhou Youyoumu ~ Perfect Cherry Blossom (東方妖々夢　～ Perfect
+                Cherry Blossom) is a vertical-scrolling shooter, and is the
+                seventh official game in the Touhou Project.
+              </p>
+              <a
+                href="https://en.touhouwiki.net/wiki/Perfect_Cherry_Blossom"
+                target="_blank"
+                class="btn btn-primary"
+                >Find out more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="274px-Touhou_8_cover.jpg" class="card-img-top" alt="IN" />
+            <div class="card-body">
+              <h5 class="card-title">Touhou 8: Imperishable Night</h5>
+              <p class="card-text">
+                Touhou Eiyashou ~ Imperishable Night (東方永夜抄　～
+                Imperishable Night) is the eighth official game in the Touhou
+                Project series, and the third to be released for Windows. It was
+                developed alongside Immaterial and Missing Power.
+              </p>
+              <a
+                href="https://en.touhouwiki.net/wiki/Imperishable_Night"
+                target="_blank"
+                class="btn btn-primary"
+                >Find out more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="256px-Th06cover.jpg" class="card-img-top" alt="EoSD" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Touhou 6: the Embodiment of Scarlet Devil
+              </h5>
+              <p class="card-text">
+                Touhou Koumakyou ~ the Embodiment of Scarlet Devil
+                (東方紅魔郷　～ the Embodiment of Scarlet Devil) is a
+                vertical-scrolling danmaku shoot 'em up, and is the sixth
+                official game in the Touhou Project by Team Shanghai Alice's
+                sole member ZUN. It is the first to be released specifically for
+                the Windows operating system and a "clean break" from the PC-98
+                era.
+              </p>
+              <a
+                href="https://en.touhouwiki.net/wiki/Embodiment_of_Scarlet_Devil"
+                target="_blank"
+                class="btn btn-primary"
+                >Find out more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
